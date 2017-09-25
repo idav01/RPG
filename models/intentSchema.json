@@ -1,0 +1,118 @@
+{
+  "intents": [
+    {
+      "intent": "UnrecognizedIntent"
+    },
+    {
+      "intent": "ResetStateIntent"
+    },
+    {
+      "intent": "RestoreStateIntent"
+    },
+    {
+      "intent": "RepeatOptionsIntent"
+    },
+    {
+      "intent": "RepeatSceneIntent"
+    },
+    {
+      "intent": "GoBackIntent"
+    },
+    {
+      "intent": "AMAZON.HelpIntent"
+    },
+    {
+      "intent": "AMAZON.StopIntent"
+    },
+    {
+      "intent": "AMAZON.CancelIntent"
+    },
+    {
+      "intent": "BeginIntent"
+    },
+    {
+      "intent": "FireIntent"
+    },
+    {
+      "intent": "WaterIntent"
+    },
+    {
+      "intent": "GoForwardIntent"
+    },
+    {
+      "intent": "CandleIntent"
+    },
+    {
+      "intent": "FireMissionIntent"
+    },
+    {
+      "intent": "LavaIntent"
+    },
+    {
+      "intent": "TorchIntent"
+    },
+    {
+      "intent": "FireBridgeIntent"
+    },
+    {
+      "intent": "PondIntent"
+    },
+    {
+      "intent": "FountainIntent"
+    },
+    {
+      "intent": "WaterBridgeIntent"
+    },
+    {
+      "intent": "IceIntent"
+    },
+    {
+      "intent": "WaterMissionIntent"
+    },
+    {
+      "intent": "FireCliffOneIntent"
+    },
+    {
+      "intent": "FireTrailOneIntent"
+    },
+    {
+      "intent": "WaterCliffOneIntent"
+    },
+    {
+      "intent": "WaterTrailOneIntent"
+    },
+    {
+      "intent": "WaterTrailTwoIntent"
+    },
+    {
+      "intent": "WaterCliffTwoIntent"
+    },
+    {
+      "intent": "WaterTrailThreeIntent"
+    },
+    {
+      "intent": "MagicIslandIntent"
+    },
+    {
+      "intent": "RewardNowIntent"
+    },
+    {
+      "intent": "RewardLaterIntent"
+    },
+    {
+      "intent": "FireTrailTwoIntent"
+    },
+    {
+      "intent": "FireCliffTwoIntent"
+    },
+    {
+      "intent": "FireTrailThreeIntent"
+    },
+    {
+      "intent": "FireLandIntent"
+    },
+    {
+      "intent": "FightWaterBeastIntent"
+    }
+  ]
+}

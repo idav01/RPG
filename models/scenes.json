@@ -1,0 +1,1093 @@
+[
+  {
+    "id": 0,
+    "color": "default",
+    "isHidden": false,
+    "readPreviousOptions": false,
+    "card": {
+      "title": "Welcome",
+      "text": "Welcome to the fates Skill. To learn how to use this skill, say \"Help\".",
+      "prompt": "",
+      "image": {
+        "largeImageUrl": null,
+        "smallImageUrl": null
+      }
+    },
+    "voice": {
+      "intro": "Welcome to the fates Skill. To learn how to use this skill, say \"Help\".",
+      "prompt": "When you are ready, say \"Begin\"."
+    },
+    "options": [
+      {
+        "utterances": [
+          "begin"
+        ],
+        "sceneId": 1
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "color": "default",
+    "isHidden": false,
+    "readPreviousOptions": false,
+    "card": {
+      "title": "Welcome",
+      "text": "You were visited in a dream states by elders called the ancient ones. You have a quest that will test your mind, body, and spirit.  To start the journey choose the type of magic to use, fire or water.  Say fire or water.",
+      "prompt": "",
+      "image": {
+        "largeImageUrl": null,
+        "smallImageUrl": null
+      }
+    },
+    "voice": {
+      "intro": "You woke to find yourself visited by the ancient ones who have a quest for you.  To start the journey choose the type of magic to use, fire or water.  Say fire or water.",
+      "prompt": ""
+    },
+    "options": [
+      {
+        "sceneId": 7,
+        "utterances": [
+          "fire"
+        ]
+      },
+      {
+        "sceneId": 8,
+        "utterances": [
+          "water"
+        ]
+      },
+      {
+        "sceneId": 9,
+        "utterances": [
+          "go back"
+        ]
+      },
+      {
+        "sceneId": 10,
+        "utterances": [
+          "go forward"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "color": "red",
+    "isHidden": false,
+    "generateOptions": true,
+    "readPreviousOptions": false,
+    "card": {
+      "title": "You Lose",
+      "text": "Better luck next time.",
+      "prompt": "If you would like to play again say, \"start again.\" Otherwise you can say \"exit skill.\"",
+      "image": {
+        "largeImageUrl": null,
+        "smallImageUrl": null
+      }
+    },
+    "voice": {
+      "intro": "Better luck next time.",
+      "prompt": "If you would like to play again say, \"start again.\" Otherwise you can say \"exit skill.\""
+    },
+    "options": []
+  },
+  {
+    "id": 3,
+    "color": "yellow",
+    "isHidden": false,
+    "generateOptions": true,
+    "readPreviousOptions": false,
+    "card": {
+      "title": "Room",
+      "text": "You enter a room. There does not appear to be a way out of this room. Say go back to try again.",
+      "prompt": "",
+      "image": {
+        "largeImageUrl": null,
+        "smallImageUrl": null
+      }
+    },
+    "voice": {
+      "intro": "You enter a room. There does not appear to be a way out of this room. Say go back to try again.",
+      "prompt": ""
+    },
+    "options": []
+  },
+  {
+    "id": 4,
+    "color": "yellow",
+    "isHidden": false,
+    "generateOptions": true,
+    "readPreviousOptions": false,
+    "card": {
+      "title": "Hall",
+      "text": "That is the hall you came from.",
+      "prompt": "",
+      "image": {
+        "largeImageUrl": null,
+        "smallImageUrl": null
+      }
+    },
+    "voice": {
+      "intro": "That is the hall you came from.",
+      "prompt": ""
+    },
+    "options": []
+  },
+  {
+    "id": 5,
+    "color": "green",
+    "isHidden": false,
+    "generateOptions": true,
+    "readPreviousOptions": false,
+    "card": {
+      "title": "Ring 1",
+      "text": "You find the first ring, the ring of magic.  To retrieve the ring you must answer this riddle.\n\nI am tall. when I am young. and short. when I am old.  Who am I?",
+      "prompt": "For a hint. I am used for light.",
+      "image": {
+        "largeImageUrl": null,
+        "smallImageUrl": null
+      }
+    },
+    "voice": {
+      "intro": "You find the first ring, the ring of magic.  To retrieve the ring you must answer this riddle.\n\nI am tall. when I am young. and short. when I am old.  Who am I?",
+      "prompt": "For a hint. I am used for light."
+    },
+    "options": [
+      {
+        "sceneId": 6,
+        "utterances": [
+          "candle"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "color": "default",
+    "isHidden": false,
+    "generateOptions": true,
+    "readPreviousOptions": false,
+    "card": {
+      "title": "Fire Mission",
+      "text": "You retrieve the ring of magic.  Suddenly you hear the ancients in your mind. To journey further you will need to climb fire mountain.  Say fire missison to begin.",
+      "prompt": "",
+      "image": {
+        "largeImageUrl": null,
+        "smallImageUrl": null
+      }
+    },
+    "voice": {
+      "intro": "You retrieve the ring of magic.  Suddenly you hear the ancients in your mind. To journey further you will need to climb fire mountain.  Say fire missison to begin.",
+      "prompt": ""
+    },
+    "options": [
+      {
+        "sceneId": 16,
+        "utterances": [
+          "fire mission"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "color": "default",
+    "isHidden": false,
+    "generateOptions": true,
+    "readPreviousOptions": false,
+    "card": {
+      "title": "Fire Path",
+      "text": "You chose fire. You are sent to a maze where you see a few paths, one going towards lava, in another direction a torch, and to the right, a fire bridge.  Which way would you like to go, say lava, torch, or, fire bridge.",
+      "prompt": "",
+      "image": {
+        "largeImageUrl": null,
+        "smallImageUrl": null
+      }
+    },
+    "voice": {
+      "intro": "You chose fire. You are sent to a maze where you see a few paths, one going towards lava, in another direction a torch, and to the right, a fire bridge.  Which way would you like to go, say lava, torch, or, fire bridge.",
+      "prompt": ""
+    },
+    "options": [
+      {
+        "sceneId": 2,
+        "utterances": [
+          "lava"
+        ]
+      },
+      {
+        "sceneId": 3,
+        "utterances": [
+          "torch"
+        ]
+      },
+      {
+        "sceneId": 4,
+        "utterances": [
+          "go back"
+        ]
+      },
+      {
+        "sceneId": 5,
+        "utterances": [
+          "fire bridge"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "color": "default",
+    "isHidden": false,
+    "generateOptions": true,
+    "readPreviousOptions": false,
+    "card": {
+      "title": "Water Path",
+      "text": "You chose water. You are sent to a maze where you see a few paths, one going towards a pond, in another direction a fountain, and to the right, a water bridge.  Which way would you like to go, say pond, fountain, or, water bridge.",
+      "prompt": "",
+      "image": {
+        "largeImageUrl": null,
+        "smallImageUrl": null
+      }
+    },
+    "voice": {
+      "intro": "You chose water. You are sent to a maze where you see a few paths, one going towards a pond, in another direction a fountain, and to the right, a water bridge.  Which way would you like to go, say pond, fountain, or, water bridge.",
+      "prompt": ""
+    },
+    "options": [
+      {
+        "sceneId": 11,
+        "utterances": [
+          "pond"
+        ]
+      },
+      {
+        "sceneId": 12,
+        "utterances": [
+          "fountain"
+        ]
+      },
+      {
+        "sceneId": 13,
+        "utterances": [
+          "go back"
+        ]
+      },
+      {
+        "sceneId": 14,
+        "utterances": [
+          "water bridge"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "color": "yellow",
+    "isHidden": false,
+    "generateOptions": true,
+    "readPreviousOptions": false,
+    "card": {
+      "title": "Room",
+      "text": "That is the room you came from.",
+      "prompt": "",
+      "image": {
+        "largeImageUrl": null,
+        "smallImageUrl": null
+      }
+    },
+    "voice": {
+      "intro": "That is the room you came from.",
+      "prompt": ""
+    },
+    "options": []
+  },
+  {
+    "id": 10,
+    "color": "yellow",
+    "isHidden": false,
+    "generateOptions": true,
+    "readPreviousOptions": false,
+    "card": {
+      "title": "Wall",
+      "text": "There is a wall. Say go back to try again.",
+      "prompt": "",
+      "image": {
+        "largeImageUrl": null,
+        "smallImageUrl": null
+      }
+    },
+    "voice": {
+      "intro": "There is a wall. Say go back to try again.",
+      "prompt": ""
+    },
+    "options": []
+  },
+  {
+    "id": 11,
+    "color": "red",
+    "isHidden": false,
+    "generateOptions": true,
+    "readPreviousOptions": false,
+    "card": {
+      "title": "You lose",
+      "text": "Better luck next time.",
+      "prompt": "If you would like to play again say, \"start again.\" Otherwise you can say \"exit skill.\"",
+      "image": {
+        "largeImageUrl": null,
+        "smallImageUrl": null
+      }
+    },
+    "voice": {
+      "intro": "Better luck next time.",
+      "prompt": "If you would like to play again say, \"start again.\" Otherwise you can say \"exit skill.\""
+    },
+    "options": []
+  },
+  {
+    "id": 12,
+    "color": "yellow",
+    "isHidden": false,
+    "generateOptions": true,
+    "readPreviousOptions": false,
+    "card": {
+      "title": "Room",
+      "text": "You enter a room. There does not appear to be a way out of this room. Say go back to try again.",
+      "prompt": "",
+      "image": {
+        "largeImageUrl": null,
+        "smallImageUrl": null
+      }
+    },
+    "voice": {
+      "intro": "You enter a room. There does not appear to be a way out of this room. Say go back to try again.",
+      "prompt": ""
+    },
+    "options": []
+  },
+  {
+    "id": 13,
+    "color": "yellow",
+    "isHidden": false,
+    "generateOptions": true,
+    "readPreviousOptions": false,
+    "card": {
+      "title": "Path",
+      "text": "That is the path you came from.",
+      "prompt": "",
+      "image": {
+        "largeImageUrl": null,
+        "smallImageUrl": null
+      }
+    },
+    "voice": {
+      "intro": "That is the hall you came from.",
+      "prompt": ""
+    },
+    "options": []
+  },
+  {
+    "id": 14,
+    "color": "green",
+    "isHidden": false,
+    "generateOptions": true,
+    "readPreviousOptions": false,
+    "card": {
+      "title": "Ring 1",
+      "text": "You find the first ring, the ring of magic. To retrieve the ring you must answer this riddle.\n\nI am the son of water. but when I return to water. I die.  Who am I?",
+      "prompt": "For a hint: I am a form of water",
+      "image": {
+        "largeImageUrl": null,
+        "smallImageUrl": null
+      }
+    },
+    "voice": {
+      "intro": "You find the first ring, the ring of magic. To retrieve the ring you must answer this riddle.\n\nI am the son of water. but when I return to water. I die.  Who am I?",
+      "prompt": "For a hint: I am a form of water"
+    },
+    "options": [
+      {
+        "sceneId": 15,
+        "utterances": [
+          "ice"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "color": "default",
+    "isHidden": false,
+    "generateOptions": true,
+    "readPreviousOptions": false,
+    "card": {
+      "title": "Water Mission",
+      "text": "You retrieve the ring of magic.  Suddenly you hear the ancients in your mind. To journey further you will need to climb water mountain.  Say water missison to begin.",
+      "prompt": "",
+      "image": {
+        "largeImageUrl": null,
+        "smallImageUrl": null
+      }
+    },
+    "voice": {
+      "intro": "You retrieve the ring of magic.  Suddenly you hear the ancients in your mind. To journey further you will need to climb water mountain.  Say water missison to begin.",
+      "prompt": ""
+    },
+    "options": [
+      {
+        "sceneId": 17,
+        "utterances": [
+          "water mission"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "color": "default",
+    "isHidden": false,
+    "generateOptions": true,
+    "readPreviousOptions": false,
+    "card": {
+      "title": "Fire Mountain",
+      "text": "You come to fire mountain. You see 2 paths, fire cliff 1, and fire trail 1. Which way do you want to go?  Say fire cliff one, or say, fire trail 1.",
+      "prompt": "",
+      "image": {
+        "largeImageUrl": null,
+        "smallImageUrl": null
+      }
+    },
+    "voice": {
+      "intro": "You come to fire mountain. You see 2 paths, fire cliff 1, and fire trail 1. Which way do you want to go?  Say fire cliff one, or say, fire trail 1.",
+      "prompt": ""
+    },
+    "options": [
+      {
+        "sceneId": 21,
+        "utterances": [
+          "fire cliff 1"
+        ]
+      },
+      {
+        "sceneId": 24,
+        "utterances": [
+          "fire trail 1"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "color": "default",
+    "isHidden": false,
+    "generateOptions": true,
+    "readPreviousOptions": false,
+    "card": {
+      "title": "Water Mountain",
+      "text": "You come to water mountain. You see 2 paths, water cliff 1, and water trail 1. Which way do you want to go?  Say water cliff 1, or say, fire trail 1.",
+      "prompt": "",
+      "image": {
+        "largeImageUrl": null,
+        "smallImageUrl": null
+      }
+    },
+    "voice": {
+      "intro": "You come to water mountain. You see 2 paths, water cliff 1, and water trail 1. Which way do you want to go?  Say water cliff 1, or say, fire trail 1.",
+      "prompt": ""
+    },
+    "options": [
+      {
+        "sceneId": 18,
+        "utterances": [
+          "water cliff 1"
+        ]
+      },
+      {
+        "sceneId": 25,
+        "utterances": [
+          "water trail 1"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "color": "default",
+    "isHidden": false,
+    "generateOptions": true,
+    "readPreviousOptions": false,
+    "card": {
+      "title": "Cliff",
+      "text": "You come to a cliff.",
+      "prompt": "",
+      "image": {
+        "largeImageUrl": null,
+        "smallImageUrl": null
+      }
+    },
+    "voice": {
+      "intro": "You come to a cliff.",
+      "prompt": ""
+    },
+    "options": [
+      {
+        "sceneId": 19,
+        "utterances": [
+          "water trail 2"
+        ]
+      },
+      {
+        "sceneId": 27,
+        "utterances": [
+          "water cliff 2"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "color": "default",
+    "isHidden": false,
+    "generateOptions": true,
+    "readPreviousOptions": false,
+    "card": {
+      "title": "Cliff",
+      "text": "You come to a cliff.",
+      "prompt": "",
+      "image": {
+        "largeImageUrl": null,
+        "smallImageUrl": null
+      }
+    },
+    "voice": {
+      "intro": "You come to a cliff.",
+      "prompt": ""
+    },
+    "options": [
+      {
+        "sceneId": 20,
+        "utterances": [
+          "water trail 3"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "color": "green",
+    "isHidden": false,
+    "generateOptions": true,
+    "readPreviousOptions": false,
+    "card": {
+      "title": "Ring 2",
+      "text": "Walking up the third trail you find a little chest at the end. Inside is another ring, the ring of knowledge.\n\nAn elder named Temptress came to you with a warning. You can be rewarded now with vast material wealth or in the next life with spiritual welath.",
+      "prompt": "",
+      "image": {
+        "largeImageUrl": null,
+        "smallImageUrl": null
+      }
+    },
+    "voice": {
+      "intro": "Walking up the third trail you find a little chest at the end. Inside is another ring, the ring of knowledge.\n\nAn elder named Temptress came to you with a warning. You will be justly rewarded for gathering the rings of fate but a great challenge awaits.\n\nYou can be rewarded now with vast material wealth or in the next life with spiritual welath.",
+      "prompt": ""
+    },
+    "options": [
+      {
+        "sceneId": 28,
+        "utterances": [
+          "magic island"
+        ]
+      },
+      {
+        "sceneId": 34,
+        "utterances": [
+          "reward now"
+        ]
+      },
+      {
+        "sceneId": 35,
+        "utterances": [
+          "reward later"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "color": "default",
+    "isHidden": false,
+    "generateOptions": true,
+    "readPreviousOptions": false,
+    "card": {
+      "title": "Cliff",
+      "text": "You come to a cliff.",
+      "prompt": "",
+      "image": {
+        "largeImageUrl": null,
+        "smallImageUrl": null
+      }
+    },
+    "voice": {
+      "intro": "You come to a cliff.",
+      "prompt": ""
+    },
+    "options": [
+      {
+        "sceneId": 22,
+        "utterances": [
+          "fire trail 2"
+        ]
+      },
+      {
+        "sceneId": 26,
+        "utterances": [
+          "fire cliff 2"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "color": "default",
+    "isHidden": false,
+    "generateOptions": true,
+    "readPreviousOptions": false,
+    "card": {
+      "title": "Cliff",
+      "text": "You come to a cliff.",
+      "prompt": "",
+      "image": {
+        "largeImageUrl": null,
+        "smallImageUrl": null
+      }
+    },
+    "voice": {
+      "intro": "You come to a cliff.",
+      "prompt": ""
+    },
+    "options": [
+      {
+        "sceneId": 23,
+        "utterances": [
+          "fire trail 3"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "color": "green",
+    "isHidden": false,
+    "generateOptions": true,
+    "readPreviousOptions": false,
+    "card": {
+      "title": "Ring 2",
+      "text": "Walking up the third trail you find a little chest at the end. Inside is another ring. the ring of knowledge.",
+      "prompt": "",
+      "image": {
+        "largeImageUrl": null,
+        "smallImageUrl": null
+      }
+    },
+    "voice": {
+      "intro": "Walking up the third trail you find a little chest at the end. Inside is another ring, the ring of knowledge.",
+      "prompt": ""
+    },
+    "options": [
+      {
+        "sceneId": 29,
+        "utterances": [
+          "fire land"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "color": "yellow",
+    "isHidden": false,
+    "generateOptions": true,
+    "readPreviousOptions": false,
+    "card": {
+      "title": "Cliff",
+      "text": "You come to a cliff with a dead end. Say go back to try again.",
+      "prompt": "",
+      "image": {
+        "largeImageUrl": null,
+        "smallImageUrl": null
+      }
+    },
+    "voice": {
+      "intro": "You come to a cliff with a dead end. Say go back to try again.",
+      "prompt": ""
+    },
+    "options": []
+  },
+  {
+    "id": 25,
+    "color": "yellow",
+    "isHidden": false,
+    "generateOptions": true,
+    "readPreviousOptions": false,
+    "card": {
+      "title": "Cliff",
+      "text": "You come to a cliff with a dead end. Say go back to try again.",
+      "prompt": "",
+      "image": {
+        "largeImageUrl": null,
+        "smallImageUrl": null
+      }
+    },
+    "voice": {
+      "intro": "You come to a cliff with a dead end. Say go back to try again.",
+      "prompt": ""
+    },
+    "options": []
+  },
+  {
+    "id": 26,
+    "color": "yellow",
+    "isHidden": false,
+    "generateOptions": true,
+    "readPreviousOptions": false,
+    "card": {
+      "title": "cliff",
+      "text": "You come to a cliff with a dead end. Say go back to try again.",
+      "prompt": "",
+      "image": {
+        "largeImageUrl": null,
+        "smallImageUrl": null
+      }
+    },
+    "voice": {
+      "intro": "You come to a cliff with a dead end. Say go back to try again.",
+      "prompt": ""
+    },
+    "options": []
+  },
+  {
+    "id": 27,
+    "color": "yellow",
+    "isHidden": false,
+    "generateOptions": true,
+    "readPreviousOptions": false,
+    "card": {
+      "title": "cliff",
+      "text": "You come to a cliff with a dead end. Say go back to try again.",
+      "prompt": "",
+      "image": {
+        "largeImageUrl": null,
+        "smallImageUrl": null
+      }
+    },
+    "voice": {
+      "intro": "You come to a cliff with a dead end. Say go back to try again.",
+      "prompt": ""
+    },
+    "options": []
+  },
+  {
+    "id": 28,
+    "color": "default",
+    "isHidden": false,
+    "generateOptions": true,
+    "readPreviousOptions": false,
+    "card": {
+      "title": "Foggy Clearing",
+      "text": "Walking up the third trail you find a little chest at the end. Inside is another ring, the ring of knowledge.\n\nAn elder named Temptress came to you with a warning. You will be justly rewarded for gathering the rings of fate but a great challenge awaits.\n\nYou can be rewarded now with vast material wealth or in the next life with spiritual welath.",
+      "prompt": "",
+      "image": {
+        "largeImageUrl": null,
+        "smallImageUrl": null
+      }
+    },
+    "voice": {
+      "intro": "You come to a clearing.",
+      "prompt": ""
+    },
+    "options": [
+      {
+        "sceneId": 30,
+        "utterances": [
+          "reward now"
+        ]
+      },
+      {
+        "sceneId": 31,
+        "utterances": [
+          "reward later"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "color": "default",
+    "isHidden": false,
+    "generateOptions": true,
+    "readPreviousOptions": false,
+    "card": {
+      "title": "Smokey Clearing",
+      "text": "You come to a clearing.",
+      "prompt": "",
+      "image": {
+        "largeImageUrl": null,
+        "smallImageUrl": null
+      }
+    },
+    "voice": {
+      "intro": "You come to a clearing.",
+      "prompt": ""
+    },
+    "options": []
+  },
+  {
+    "id": 30,
+    "color": "default",
+    "isHidden": false,
+    "generateOptions": true,
+    "readPreviousOptions": false,
+    "card": {
+      "title": "ring 3",
+      "text": "You have chosen to reap your rewards now.  You have earned the ring of power but a Water Beast sensing your power has come for the rings.",
+      "prompt": "",
+      "image": {
+        "largeImageUrl": null,
+        "smallImageUrl": null
+      }
+    },
+    "voice": {
+      "intro": "You have chosen to reap your rewards now.  You have earned the ring of power but a Water Beast sensing your power has come for the rings.",
+      "prompt": ""
+    },
+    "options": [
+      {
+        "sceneId": 33,
+        "utterances": [
+          "fight water beast"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "color": "default",
+    "isHidden": false,
+    "generateOptions": true,
+    "readPreviousOptions": false,
+    "card": {
+      "title": "Ring 3",
+      "text": "You have chosen to reap your rewards in the next life.  You have earned the ring of power but a Water Beast sensing your power has come for the rings.",
+      "prompt": "",
+      "image": {
+        "largeImageUrl": null,
+        "smallImageUrl": null
+      }
+    },
+    "voice": {
+      "intro": "You have chosen to reap your rewards in the next life.  You have earned the ring of power but a Water Beast sensing your power has come for the rings.",
+      "prompt": ""
+    },
+    "options": [
+      {
+        "sceneId": 32,
+        "utterances": [
+          "fight water beast"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "color": "default",
+    "isHidden": false,
+    "generateOptions": true,
+    "readPreviousOptions": false,
+    "card": {
+      "title": "Room",
+      "text": "You enter a room.",
+      "image": {
+        "smallImageUrl": null,
+        "largeImageUrl": null
+      }
+    },
+    "voice": {
+      "intro": "You enter a room. What would you like to do?",
+      "prompt": ""
+    },
+    "options": []
+  },
+  {
+    "id": 33,
+    "color": "default",
+    "isHidden": false,
+    "generateOptions": true,
+    "readPreviousOptions": false,
+    "card": {
+      "title": "Room",
+      "text": "You enter a room.",
+      "image": {
+        "smallImageUrl": null,
+        "largeImageUrl": null
+      }
+    },
+    "voice": {
+      "intro": "You enter a room. What would you like to do?",
+      "prompt": ""
+    },
+    "options": []
+  },
+  {
+    "id": 34,
+    "color": "default",
+    "isHidden": false,
+    "generateOptions": true,
+    "readPreviousOptions": false,
+    "card": {
+      "title": "ring 3",
+      "text": "You have chosen to reap your rewards now.  You have earned the ring of power but a Water Beast sensing your power has come for the rings.\n\nYou must travel to magic island to face the beast.",
+      "prompt": "",
+      "image": {
+        "largeImageUrl": null,
+        "smallImageUrl": null
+      }
+    },
+    "voice": {
+      "intro": "You have chosen to reap your rewards now.  You have earned the ring of power but a Water Beast sensing your power has come for the rings.\n\nYou must travel to magic island to face the beast.",
+      "prompt": ""
+    },
+    "options": [
+      {
+        "sceneId": 37,
+        "utterances": [
+          "magic island"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "color": "default",
+    "isHidden": false,
+    "generateOptions": true,
+    "readPreviousOptions": false,
+    "card": {
+      "title": "ring 3",
+      "text": "You have chosen to reap your rewards later.  You have earned the ring of power but a Water Beast sensing your power has come for the rings.\n\nYou must travel to magic island to face the beast.",
+      "prompt": "",
+      "image": {
+        "largeImageUrl": null,
+        "smallImageUrl": null
+      }
+    },
+    "voice": {
+      "intro": "You have chosen to reap your rewards later.  You have earned the ring of power but a Water Beast sensing your power has come for the rings.\n\nYou must travel to magic island to face the beast.",
+      "prompt": ""
+    },
+    "options": [
+      {
+        "sceneId": 36,
+        "utterances": [
+          "magic island"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "color": "default",
+    "isHidden": false,
+    "generateOptions": true,
+    "readPreviousOptions": false,
+    "card": {
+      "title": "foggy clearing",
+      "text": "You enter a room.",
+      "prompt": "",
+      "image": {
+        "largeImageUrl": null,
+        "smallImageUrl": null
+      }
+    },
+    "voice": {
+      "intro": "You enter a room. What would you like to do?",
+      "prompt": ""
+    },
+    "options": [
+      {
+        "sceneId": 39,
+        "utterances": [
+          "fight water beast"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "color": "default",
+    "isHidden": false,
+    "generateOptions": true,
+    "readPreviousOptions": false,
+    "card": {
+      "title": "foggy clearing",
+      "text": "You enter a room.",
+      "prompt": "",
+      "image": {
+        "largeImageUrl": null,
+        "smallImageUrl": null
+      }
+    },
+    "voice": {
+      "intro": "You enter a room. What would you like to do?",
+      "prompt": ""
+    },
+    "options": [
+      {
+        "sceneId": 38,
+        "utterances": [
+          "fight water beast"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "color": "default",
+    "isHidden": false,
+    "generateOptions": true,
+    "readPreviousOptions": false,
+    "card": {
+      "title": "Room",
+      "text": "You enter a room.",
+      "image": {
+        "smallImageUrl": null,
+        "largeImageUrl": null
+      }
+    },
+    "voice": {
+      "intro": "You enter a room. What would you like to do?",
+      "prompt": ""
+    },
+    "options": []
+  },
+  {
+    "id": 39,
+    "color": "default",
+    "isHidden": false,
+    "generateOptions": true,
+    "readPreviousOptions": false,
+    "card": {
+      "title": "Room",
+      "text": "You enter a room.",
+      "image": {
+        "smallImageUrl": null,
+        "largeImageUrl": null
+      }
+    },
+    "voice": {
+      "intro": "You enter a room. What would you like to do?",
+      "prompt": ""
+    },
+    "options": []
+  }
+]
